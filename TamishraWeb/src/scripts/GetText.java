@@ -9,7 +9,7 @@ public class GetText {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.chrome.driver", "/Users/priyabratahota/Downloads/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/priyabratahota/Downloads/tamishra/chromedriver");
 		WebDriver wd= new ChromeDriver();
 		
 		wd.get("https://ui.cogmento.com/");

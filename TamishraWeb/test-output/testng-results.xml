@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-17T17:58:59 IST" name="Tamishra suite" finished-at="2021-07-17T17:59:50 IST" duration-ms="51202">
+  <suite started-at="2021-08-09T21:38:27 IST" name="Default suite" finished-at="2021-08-09T21:38:45 IST" duration-ms="18199">
     <groups>
     </groups>
-    <test started-at="2021-07-17T17:58:59 IST" name="test case 1" finished-at="2021-07-17T17:59:50 IST" duration-ms="51202">
-      <class name="scripts1.Testng1">
-        <test-method signature="f()[pri:0, instance:scripts1.Testng1@693fe6c9]" started-at="2021-07-17T17:58:59 IST" name="f" finished-at="2021-07-17T17:59:14 IST" duration-ms="15182" status="PASS">
+    <test started-at="2021-08-09T21:38:27 IST" name="Default test" finished-at="2021-08-09T21:38:45 IST" duration-ms="18199">
+      <class name="scripts1.TestNGBasics">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts1.TestNGBasics@5f9b2141]" started-at="2021-08-09T21:38:27 IST" name="setUp" finished-at="2021-08-09T21:38:36 IST" duration-ms="9829" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- scripts1.Testng1 -->
-      <class name="scripts1.Testng2">
-        <test-method signature="f()[pri:0, instance:scripts1.Testng2@69997e9d]" started-at="2021-07-17T17:59:14 IST" name="f" finished-at="2021-07-17T17:59:27 IST" duration-ms="13065" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="FreeCRMLogoTest()[pri:0, instance:scripts1.TestNGBasics@5f9b2141]" started-at="2021-08-09T21:38:36 IST" name="FreeCRMLogoTest" finished-at="2021-08-09T21:38:37 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- scripts1.Testng2 -->
-      <class name="scripts1.Testng3">
-        <test-method signature="f()[pri:0, instance:scripts1.Testng3@793be5ca]" started-at="2021-07-17T17:59:27 IST" name="f" finished-at="2021-07-17T17:59:40 IST" duration-ms="12789" status="PASS">
+        </test-method> <!-- FreeCRMLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts1.TestNGBasics@5f9b2141]" started-at="2021-08-09T21:38:37 IST" name="tearDown" finished-at="2021-08-09T21:38:37 IST" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- scripts1.Testng3 -->
-      <class name="scripts1.Testng5">
-        <test-method signature="f()[pri:0, instance:scripts1.Testng5@2df9b86]" started-at="2021-07-17T17:59:40 IST" name="f" finished-at="2021-07-17T17:59:50 IST" duration-ms="10098" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts1.TestNGBasics@5f9b2141]" started-at="2021-08-09T21:38:37 IST" name="setUp" finished-at="2021-08-09T21:38:44 IST" duration-ms="7630" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- scripts1.Testng5 -->
-    </test> <!-- test case 1 -->
-  </suite> <!-- Tamishra suite -->
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPageTitleTest()[pri:0, instance:scripts1.TestNGBasics@5f9b2141]" started-at="2021-08-09T21:38:44 IST" name="verifyPageTitleTest" finished-at="2021-08-09T21:38:44 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts1.TestNGBasics@5f9b2141]" started-at="2021-08-09T21:38:44 IST" name="tearDown" finished-at="2021-08-09T21:38:45 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts1.TestNGBasics -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
